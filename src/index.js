@@ -10,9 +10,11 @@ import './App.css';
 
 ReactDOM.render(
   <AppState>
+    <React.StrictMode>
   <Router>
     <Route path="/" component={Main}/>
   </Router>
+  </React.StrictMode>
 </AppState>,
   document.getElementById('root')
 );

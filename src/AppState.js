@@ -3,7 +3,19 @@ import React, { useReducer } from "react"
 const initialState = {
     url: "http://teamcoacher.herokuapp.com",
     token: null,
-    username: null
+    username: null,
+    manages: null,
+    new: {
+        title: "",
+        description: "",
+        date: ""
+    }, 
+    edit: {
+        id: 0,
+        title: "",
+        description: "",
+        date: ""
+    }
 }
 
 const reducer = (state, action) => {
@@ -18,6 +30,14 @@ const reducer = (state, action) => {
                 newState ={ ...state, token: null, username: null}
                 window.localStorage.removeItem("auth")
                 return newState
+                case "getManages":
+                    newState = {...state, manages: action.payload}
+                    return newState
+                    break
+                    case "select":
+                        newState = {...state, edit: action.payload}
+                        return newState
+                        break
             default:
                 return state
                 break
