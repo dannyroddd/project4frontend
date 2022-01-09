@@ -1,7 +1,7 @@
 import React, { useReducer } from "react"
 
 const initialState = {
-    url: "http://teamcoacher.herokuapp.com",
+    url: "https://teamcoacher.herokuapp.com",
     token: null,
     username: null,
     manages: null,
