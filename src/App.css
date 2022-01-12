@@ -1,10 +1,42 @@
-header {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+.app{
+  font-family: 'Open Sans Condensed', sans-serif;
+background-image: url("https://image.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg");
+background-size: cover;
+}
+
+.home{
+  color: white;
+  height: 700px;
   text-align: center;
 }
+
+h1{
+  padding-top: 10%;
+  font-size: 3em;
+}
+
+h2{
+  font-size: 2em;
+  color: crimson;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.logo{
+  width: 10%;
+}
+
 
 header nav {
   display: flex;
   justify-content: space-around;
+  background-color: black;
 }
 
 header nav a {
@@ -14,7 +46,7 @@ header nav a {
 
 header nav div {
   font-size: larger;
-  background-color: olive;
+  background-color: silver;
   color: aliceblue;
   width: 200px;
   border-radius: 8px;
@@ -24,15 +56,29 @@ header nav div {
 
 header nav div:hover{
   background-color: greenyellow;
-  color: grey;
+  color: lightskyblue;
 }
 
 .auth form{
   padding: 50px;
+  background-image: url("https://image.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg");
+  height: 700px;
+  background-size: cover;
 }
 
 .auth form input, .form form input, button{
-  background-color: olive;
+  background-color: silver;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+textarea{
+  background-color: silver;
   color: white;
   padding: 8px;
   border-radius: 6px;
@@ -49,9 +95,75 @@ header nav div:hover{
 
 .dashboard .manage{
   text-align: center;
-  width: 90%;
+  width: 20%;
   margin: 10px auto;
-  border: 4px solid olive;
+  border: 4px solid silver;
   border-radius: 16px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
+}
+
+.manage{
+  background-image: url("https://murals-weblinc.netdna-ssl.com/product_images/basketball-ball-over-floor-in-the-gym-27296433/5ec82f55bd89dd0018f77531/product_large_image.jpg?c=1590177621");
+  background-size: auto;
+  color: white;
+  font-size: 1.4em;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  font-size: 1em;
+  padding: 16px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+  background-color: rgb(153, 229, 229);
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+  background-color: rgb(153, 229, 229);
+}
+
+ul{
+  display: flex;
+flex-direction: row;
+ flex-wrap: wrap;
+ list-style: none;
+
+}
+
+li{
+ width: auto;
+ height: auto;
+ padding: 25px;
+ text-align: center;
 
 }

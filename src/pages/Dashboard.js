@@ -1,7 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 import { useAppState } from "../AppState"
 import { Route, Link } from "react-router-dom"
 import Form from "../components/Form"
+import Modal from "react-modal"
 
 const Dashboard = (props) => {
 
@@ -21,15 +22,20 @@ const Dashboard = (props) => {
 
     React.useEffect(() => {getManages()}, [])
 
+   
+
 const loaded = () => {
+
+   
     
     console.log(state)
 
     return(
     <div className = "dashboard">
-    <h1>
+       
+    <h2>
         {username}'s Manages
-    </h1>
+    </h2>
     <Link to="/dashboard/new">
         <button>
             New Manage
@@ -71,6 +77,7 @@ const loaded = () => {
         </div>
     ))}
     </ul>
+    
     </div>
 )}
 

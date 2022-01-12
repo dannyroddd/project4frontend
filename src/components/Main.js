@@ -19,14 +19,16 @@ export const Main = (props) => {
     }, []);
   
     return (
-      <>
+      
+      <div className="app">
         <Route path="/" component={Nav}/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/auth/:form" component={Auth} />
           <Route path="/dashboard" component={Dashboard} />
         </Switch>
-      </>
+        </div>
+      
     );
   };
   
