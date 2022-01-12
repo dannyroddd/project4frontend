@@ -1,4 +1,4 @@
-# Project 4 - Team Coacher
+# Project 4 - Team Coacher - Keep team needs saved online.
 
 Heroku Link:
 
@@ -22,7 +22,7 @@ Netlify Link:
 
 ### Features
 1. User Authentication. Creating Accounts and Logging in and Logging out.
-2. Full CRUD functionality. Create management data, Read Workout information, Update and edit management data, Delete management data.
+2. Full CRUD functionality. Create management data, Read team information, Update and edit management data, Delete management data.
 
 
 
