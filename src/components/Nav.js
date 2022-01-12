@@ -7,7 +7,7 @@ const Nav = (props) => {
   
     return (
       <header>
-        <img src="https://document-export.canva.com/Yn1-M/DAE1LFYn1-M/18/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20220111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220111T040936Z&X-Amz-Expires=68457&X-Amz-Signature=e25d2ef6920eba6dca66848221ca255faaf2cc655e62cb437d3d79106cd36a72&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2011%20Jan%202022%2023%3A10%3A33%20GMT" alt="" className="logo"/>
+        <img src="https://document-export.canva.com/Yn1-M/DAE1LFYn1-M/15/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20220111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220111T010045Z&X-Amz-Expires=78823&X-Amz-Signature=7e95a081d0fc07a7301540e1d51acfdf8ebca9cef472c7859bd2de1d081c5a81&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2011%20Jan%202022%2022%3A54%3A28%20GMT" alt="Team-Coacher" className="logo"/>
         <nav>
           {!state.token ? (
             <>
