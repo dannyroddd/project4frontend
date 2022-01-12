@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Project 4 - Team Coacher
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Heroku Link:
 
-## Available Scripts
+[https://teamcoacher.herokuapp.com/](https://teamcoacher.herokuapp.com/)
 
-In the project directory, you can run:
+Netlify Link:
 
-### `npm start`
+[https://determined-hermann-4f6424.netlify.app/](https://determined-hermann-4f6424.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Technologies used
+1. Ruby on Rails
+2. React
+3. CSS
+4. PostrgeSQL
+5. Heroku
+6. Netlify
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Features
+1. User Authentication. Creating Accounts and Logging in and Logging out.
+2. Full CRUD functionality. Create management data, Read Workout information, Update and edit management data, Delete management data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## What was researched for use
+1. CSS Button animations - https://www.sliderrevolution.com/resources/css-button-hover-effects/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Alex Merced Ruby-React api playlist - https://www.youtube.com/playlist?list=PLY6oTPmKnKbYNIC0Yq3Cc6mgHZrWiZcJU
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How it was made
+1. Started with creating a Ruby on rails api using rails g scaffold commands and creating PostresSQL data for the api, as well as user authentication. Then migrating database data. 
+2. Deployed to Heroku using Heroku CLI. 
+3. Created Home and and Nav basic components.
+4. Implemented user Authentication within the Auth component.
+5. Created form component and implemented form state handling functions in the dashboard component.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Unsolved Problems
+1. Created a logo using Canva but the logo only renders in localhost and not in my netlify deploy.
